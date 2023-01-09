@@ -8,6 +8,10 @@ import "fmt"
 // (Once you design and tested the api you should not modifiy it, you already got clients working so try implement interface and making new types)
 
 // Specification allows us to modify the inputs to specify
+
+/*The separation of concerns promote abstraction in programming language and also make it possible that a class or module can be replaced by another in future without being able to change everywhere in the code. 
+There will be some changes needed but that will have less side effects if any. Basically it provides more freedom to develop each separate concern and provides clients with which one to choose from a range of options. */
+
 type Size int
 
 type Color int

@@ -36,6 +36,11 @@ func (j *Journal) Save(filename string) {
 //Persistance, seperation of concerns (can be influenced other type of structs are saved), have common settings basically resuable component sort of
 //Take out the concerns and save it somewhere so we can control, this place in a single setting
 
+/*
+The separation of concerns promote abstraction in programming language and also make it possible that a class or module can be replaced by another in future without being able to change everywhere in the code. 
+There will be some changes needed but that will have less side effects if any. 
+Basically it provides more freedom to develop each separate concern and provides clients with which one to choose from a range of options.*/
+
 // Persist different line seperator for Journal
 var LineSeperator = "\n"
 
